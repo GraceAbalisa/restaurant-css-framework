@@ -1,6 +1,6 @@
 body {
     padding-top: 10px;
-    background-color: #FFF5EA;
+    background-color: #d6b38f;
   }
   [class*="col-"]{
     background-color: #ffffff;
@@ -31,9 +31,6 @@ div.col-md-4{
     color: #ffffff;
 }
 
-p{
-    text-align: left;
-}
 
 div.row{
     margin-bottom: 20px;
@@ -256,4 +253,54 @@ h2 {
     background-color: #0062cc;
     border: none;
     cursor: pointer;
+}
+.first {
+  text-align: left;
+  font-style: italic;
+  margin: 50px;
+  width: 50%;
+  color: white;
+ }
+
+.second {
+  text-align: right;
+  font-style: italic;
+  margin: 50px;
+  width: 95%;
+  color: white;
+
+}
+
+.third {
+  text-align: left;
+  font-style: italic;
+  margin: 50px;
+  width: 50%;
+  color: white;
+
+}
+.fourth {
+  text-align: right;
+  font-style: italic;
+  margin: 50px;
+  width: 95%;
+  color: white;
+}
+.five {
+  color: white;
+}
+h3 {
+  font-style: bold;
+  font-size: x-large;
+  color: white;
+  text-decoration: underline;
+}
+.pagination body.active {
+  display: inherit;
+  background-color:rgb(255, 129, 129);
+  border-radius: 3%;
+}
+.pagination body:hover:not(.active) {
+  background-color:rgb(255, 129, 129);
+  border-radius: 3%;
 }
