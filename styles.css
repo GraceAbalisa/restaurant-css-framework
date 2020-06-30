@@ -8,7 +8,7 @@ body {
     border-radius: 5%;
   
   }
-  
+@media only screens
   [class*="col-"]{
     background-color: #b96b2ba8;
     /*border: 1px solid #eee;
