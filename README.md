@@ -11,7 +11,7 @@ Page web d'un restaurant africain " Saveur d'ailleurs"
         
  Date du projet : 25 juin au 30 juin chez Becode Central
 
-- Lien demo online : file:///home/becode/becode/restaurant/resto.html
+- Lien demo online : https://graceabalisa.github.io/restaurant-css-framework/.
 # Language utilisés
 
 Html, css bootstrap
