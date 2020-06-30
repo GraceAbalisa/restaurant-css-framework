@@ -1,28 +1,36 @@
 body {
     padding-top: 10px;
-    background-color: #d6b38f;
+    background-color: #b96b2ba8;
   }
+  .jumbotron {
+    background-image: url(https://i.pinimg.com/originals/71/09/86/710986bcaf19c1a40126e3811a59a077.jpg);
+    color: whitesmoke;
+    border-radius: 5%;
+  
+  }
+  
   [class*="col-"]{
-    background-color: #ffffff;
+    background-color: #b96b2ba8;
     /*border: 1px solid #eee;
     border-radius: 6px;*/
     line-height: 40px;
     text-align: center;
 }
 nav.col-md-4{
-    background-color: #FFF5EA;
+    background-color: #b96b2ba8;
     color: #ffffff;
 }
 
 div.col-md-4{
-    background-color: #FFF5EA;
+    background-color:#b96b2ba8;
 }
 
 .bouton{
-    background-color: #db8273;
+    background-color: #e48372d0;
+    opacity: 80%;
     color: #ffffff;
     width: 180px;
-    height: 100px;
+    height: 50px;
     margin: 3px;
     font-size: large;
 }
@@ -35,16 +43,31 @@ div.col-md-4{
 div.row{
     margin-bottom: 20px;
     color: #000000;
+    dis
+}
+h1 {
+  text-align: center;
+  font-size: xx-large;
+
 }
 h2 {
   text-align: center;
   font-size: larger;
-  background-color: rgb(230, 83, 67);
+  background-image: url());
+}
+.panel-default {
+  background-color: rgba(255, 255, 255, 0.322);
+  width: 100%;
+  height: 80%;
+  border: 7px whitesmoke solid;
+  border-radius: 5%;
+  font-size: x-large;
 }
 .panel-body {
-    border: solid 3px black;
+  
+  font-size: x-large;
     text-align: center;
-    background-color: rgb(230, 83, 67);
+    
 }
 .list-group li {
     display: flex;
@@ -260,6 +283,7 @@ h2 {
   margin: 50px;
   width: 50%;
   color: white;
+  
  }
 
 .second {
@@ -282,9 +306,10 @@ h2 {
 .fourth {
   text-align: right;
   font-style: italic;
-  margin: 50px;
+  margin: 2%;
   width: 95%;
   color: white;
+  padding: 2%;
 }
 .five {
   color: white;
@@ -299,8 +324,39 @@ h3 {
   display: inherit;
   background-color:rgb(255, 129, 129);
   border-radius: 3%;
+ 
 }
 .pagination body:hover:not(.active) {
   background-color:rgb(255, 129, 129);
   border-radius: 3%;
+  text-align: center;
+}
+h4 {
+  font-size: xx-large;
+  color: white;
+  text-align: center;
+}
+.zen {
+  align-content: center;
+  text-align: center;
+}
+.AB {
+  border: 1px solid white;
+  text-align: left;
+}
+.BC{ border: 1px solid white;
+}
+.CD {
+  border: 1px solid white;
+  text-align: left;
+}
+.DE {
+  border: 1px solid white;
+}
+.EF {
+  border: 1px solid white;
+  text-align: left;
+}
+.FG {
+  border: 1px solid white;
 }
